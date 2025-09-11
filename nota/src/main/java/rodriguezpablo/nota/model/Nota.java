@@ -7,7 +7,7 @@ import java.time.LocalDateTime;
 public class Nota {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private long Id;
+	private long id;
 	
 	private String titulo;
 	private String contenido;
@@ -47,5 +47,13 @@ public class Nota {
 	
 	public void setContenido(String contenido) {
 		this.contenido = contenido;
+	}
+	
+	public long getId() {
+		return id;
+	}
+	
+	public void setId(long id) {
+		this.id = id;
 	}
  }

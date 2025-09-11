@@ -6,6 +6,7 @@ import java.util.List;
 import rodriguezpablo.nota.model.Nota;
 import rodriguezpablo.nota.service.NotaService;
 
+@CrossOrigin(origins = "http://localhost:3000")
 @RestController
 @RequestMapping("/notas")
 public class NotaController {
@@ -22,7 +23,9 @@ public class NotaController {
 	
 	@GetMapping("/{id}")
 	public ResponseEntity<Nota> obtener(@PathVariable Long id) {
-		return service.obtener(id).map(ResponseEntity::ok).orElse(ResponseEntity.notFound().build());
+		return service.obtener(id)
+				.map(ResponseEntity::ok)
+				.orElse(ResponseEntity.notFound().build());
 	}
 	
 	@PostMapping
