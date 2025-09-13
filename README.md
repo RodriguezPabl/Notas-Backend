@@ -18,11 +18,11 @@ Elegí Spring Boot + H2 porque permiten levantar un backend rápido y funcional 
 
 Instalación y ejecución
 
-1. Clonar el repositorio
--bash
--git clone https://github.com/RodriguezPabl/Notas-Backend.git
--cd Notas-Backend
+Clonar el repositorio
+- bash
+- git clone https://github.com/RodriguezPabl/Notas-Backend.git
+- cd Notas-Backend
 
-2. Ejecutar el backend
--Desde un IDE (en mi caso Eclipse) ejecutar la clase rodriguezpablo.nota.NotaApplication
--Por defecto corre en http://localhost:8080
+Ejecutar el backend
+- Desde un IDE (en mi caso Eclipse) ejecutar la clase rodriguezpablo.nota.NotaApplication
+- Por defecto corre en http://localhost:8080
