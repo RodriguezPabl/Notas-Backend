@@ -21,8 +21,8 @@ Instalación y ejecución
 Clonar el repositorio
 - bash
 - git clone https://github.com/RodriguezPabl/Notas-Backend.git
-- cd Notas-Backend
 
 Ejecutar el backend
-- Desde un IDE (en mi caso Eclipse) ejecutar la clase rodriguezpablo.nota.NotaApplication
+- Desde un IDE (en mi caso Eclipse) importar el proyecto maven seleccionando la carpeta Notas-Backend que contiene el archivo pom.xml
+- ejecutar la clase rodriguezpablo.nota.NotaApplication
 - Por defecto corre en http://localhost:8080
