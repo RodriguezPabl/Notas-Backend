@@ -24,5 +24,5 @@ Clonar el repositorio
 
 Ejecutar el backend
 - Desde un IDE (en mi caso Eclipse) importar el proyecto maven seleccionando la carpeta Notas-Backend que contiene el archivo pom.xml
-- ejecutar la clase rodriguezpablo.nota.NotaApplication
+- ejecutar la clase rodriguezpablo.nota.NotaApplication o darle click derecho y Run As Java Application
 - Por defecto corre en http://localhost:8080/notas
